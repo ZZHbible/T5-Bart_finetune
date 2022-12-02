@@ -5,7 +5,7 @@
 
 import pandas as pd
 import evaluate
-df=pd.read_csv("./output/predictions.csv")
+df=pd.read_csv("./output_bart/predictions.csv")
 rouge=evaluate.load('rouge')
 predictions=df['Generated Text']
 references=df['Actual Text']

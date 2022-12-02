@@ -35,5 +35,5 @@ T5Trainer(
     target_text="headlines",
     model_params=model_params,
     device=device,
-    output_dir="outputs",
+    output_dir="outputs_t5",
 )
